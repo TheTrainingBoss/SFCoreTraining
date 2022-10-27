@@ -1,5 +1,9 @@
 # SFCoreTraining Lab 1
 
+## Pre-requisites
+1. Visual Studio 2022 installed on your machine
+2. At least MS SQL Express 2019 installed on your machine, reqgular SQL Server is fine too. We will be using SQL Express in this training class. https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
 ## Create a Sitefinity CMS Web Application using the .NET Framework 4.8
 
 1. Open Visual Studio 2022.
