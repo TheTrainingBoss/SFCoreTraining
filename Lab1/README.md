@@ -45,7 +45,7 @@
         ```
         Install-Package Progress.Sitefinity
         ```
-        #### NOTE: With these commands, you install the latest patch build. If you want to install a specific version, you must use the command followed by -Version and the version number. For example, enter Install-Package Telerik.Sitefinity.All -Version 14.3.xxxx
+        #### NOTE: With these commands, you install the latest patch build. If you want to install a specific version, you must use the command followed by -Version and the version number. For example, enter Install-Package Telerik.Sitefinity.All -Version 14.3.8000
 
 5. Wait until Sitefinity CMS is installed on your empty project. 
 6. Build your solution
