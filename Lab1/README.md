@@ -27,7 +27,7 @@
 3. Select Package Sources.
 4. Add a new source by clicking the plus button.
 5. In Name, enter Sitefinity Nuget
-6. In Source, enter http://nuget.sitefinity.com/nuget
+6. In Source, enter https://nuget.sitefinity.com/nuget
 7. Click OK
 
 ## Install Sitefinity CMS
@@ -52,7 +52,7 @@
 
 ## Setup the Sitefinity .NET Core Application
 
-1. Make sure the .NET Core CLI is installed on your machine. You can download it from here: https://dotnet.microsoft.com/en-us/download/dotnet/6.0 if not installed already.
+1. Make sure the .NET Core CLI is installed on your machine. You can download it from here: ** https://dotnet.microsoft.com/en-us/download/dotnet/6.0 ** if not installed already.
 2. Add Sitefinity NuGet source with the following command: 
    ```
    dotnet nuget add source https://nuget.sitefinity.com/nuget
