@@ -49,6 +49,9 @@
 
 5. Wait until Sitefinity CMS is installed on your empty project. 
 6. Build your solution
+7. Run the Solution in Visual Studio
+8. Activate the license by using your company's lic or a trial license. You can get a trial license from ** https://www.progress.com/sitefinity-cms/try-now/download **
+9. Go through the process of choosing SQL Express and let it complete the setup until you get to the Dashboard.
 
 ## Setup the Sitefinity .NET Core Application
 
