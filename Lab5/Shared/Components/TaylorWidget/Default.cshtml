@@ -1,0 +1,26 @@
+@using Progress.Sitefinity.RestSdk.Dto;
+
+@model IList<Progress.Sitefinity.RestSdk.Dto.SdkItem>
+
+<h1>News Items:</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            @(item.GetValue<string>("Title"))
+            @{
+                string thumbnailUrl = null;
+                if (item.TryGetValue<SdkItem[]>("Thumbnail", out SdkItem[] thumbnails) && thumbnails.Length > 0)
+                {
+                    thumbnailUrl = thumbnails[0].GetValue<string>("ThumbnailUrl");
+                }
+
+            }
+            @if (thumbnailUrl != null)
+            {
+                <img src="@thumbnailUrl" width=200 height=200 />
+            }
+        </li>
+    }
+</ul>    
+
