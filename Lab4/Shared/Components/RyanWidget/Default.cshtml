@@ -1,4 +1,8 @@
 @using ViewComponents.RyanWidget;
+@using Progress.Sitefinity.RestSdk;
+@using Progress.Sitefinity.RestSdk.Dto;
+
+@inject IRestClient RestClient
 
 @model RyanWidgetEntity
 
@@ -11,3 +15,4 @@
 
 }
 <img src="@imgDto.Url" alt="@imgDto.Title" width=200 width=200/>
+

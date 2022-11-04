@@ -1,0 +1,13 @@
+@using SFNov2022Core.ViewModels;
+
+@model NewsViewModel[]
+
+<h1>News Items:</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+      <li>
+        @item.Title
+      </li>  
+    }
+</ul>
